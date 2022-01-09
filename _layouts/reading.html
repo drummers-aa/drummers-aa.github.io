@@ -9,6 +9,19 @@
 
 </div>
 
+{% if page.source %}
+<div class="page-source">
+    {{ page.source }}
+</div>
+{% endif %}
+
+{% if page.copy %}
+<div class="copy">
+    {{ page.copy }}
+</div>
+{% endif %}
+
+
 {% include footer.html %}
 </body>
 </html>
