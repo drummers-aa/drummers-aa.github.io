@@ -5,3 +5,7 @@ _site
 .sass-cache
 style.css
 style.css.map
+
+.bundle
+
+vendor
